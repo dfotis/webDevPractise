@@ -1,0 +1,252 @@
+html, body, .wrapper { height:100%; }
+
+/*------- Base Style --------*/
+body{
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    color: #333;
+}
+
+p{
+    margin: 0 0 1.5em;
+    line-height: 1.5;
+}
+
+a:link { color: royalblue; }
+a:visited { color: purple; }
+a:focus { color: black; }
+a:hover { color: green; }
+a:active { color: red; }
+/*-----------------------*/
+
+body{
+    background-color: #e6e6e6;
+}
+
+.wrapper {
+    min-height: 100%;
+    height: auto;
+    position: relative;
+    
+}
+
+.container {
+    max-width: 70em;
+    margin: 0 auto;
+}
+
+.header{
+    color: #fff;
+    background: #999; 
+    padding: 0.01em 1.25em;
+    margin: 0;
+}
+
+.main_content {
+    overflow: hidden;
+    background-color: #fff;
+    padding-bottom: 1.5em;
+    max-width: 100%;
+    margin: 0 2em 0 2em;
+}
+
+.pageFooter {
+    color: #fff;
+    background: #000;
+    width:100%;
+    height:.8em;
+    padding: 1em 0;
+    position:relative;
+    bottom:0;
+    text-align: center;
+}
+
+.img { 
+    max-width: 69.8%; 
+    min-width: 30em;
+}
+
+/*----------- Nav menu -----------*/
+.menu-bar{
+    background: #000;
+    padding: .1em;
+}
+
+.menu{
+    margin: 0 auto 0 auto;
+    list-style: none;
+    position: relative;
+    left: -1%;
+    
+}
+
+.menu ul{
+    list-style: none;
+    text-align: center;
+    font-family: 'Courier New', 'Andale Mono';
+}
+
+.menu li {
+    display: inline;
+    margin: 0;
+}
+
+
+.menu_item  {
+    border-bottom: 1px solid gray;
+    padding: .7em 1.25em;
+    color: #fff;
+    text-decoration: none;
+}
+
+.social { 
+   position: absolute;
+   right: 1em;
+   bottom: -2em;
+}
+
+.menu a:link { 
+    color: white; 
+}
+
+.menu a:visited {
+    color: white; 
+}
+
+.menu a:focus
+{
+    color: black;
+    background-color: white;
+}
+
+.menu a:hover
+{
+    color: white;
+    background-color: orange;
+}
+
+.menu a:active
+{
+    color: white;
+    background-color: red;
+}
+/*--------------------------*/
+
+#homeImg{
+    position:relative;
+    left: 15%;
+}
+
+/*---Biography---*/
+
+.content-table{
+    border: 1px #999 solid;
+    max-width: 20em;
+    
+}
+
+.content-table ul{
+    list-style: decimal;
+}
+
+.content-table a{
+    color: #595959;
+}
+
+
+.content-table a:hover{
+    color: orange;
+}
+
+/*--Footer--*/
+
+.documentFooter a{
+    color: #595959;
+}
+
+.documentFooter a:hover{
+    color: orange;
+}
+
+.documentFooter {
+    margin-bottom: 1em;
+}
+
+/*--Quotes--*/
+
+blockquote {
+    background: #f9f9f9;
+    border-bottom: 1px solid #ccc;
+    margin: 1.5em 10px;
+    padding: 0.5em 10px;
+    line-height: 2em;
+    max-width: 50em;
+    font-style: italic;
+    
+}
+
+blockquote:before {
+    color: #ccc;
+    content: open-quote;
+    font-size: 4em;
+    line-height: 0.1em;
+    margin-right: 0.25em;
+    vertical-align: -0.4em;
+}
+
+blockquote:after {
+    color: #ccc;
+    content: close-quote;
+    font-size: 4em;
+    line-height: 0.1em;
+    margin-right: 0.25em;
+    vertical-align: -0.4em;
+}
+
+.quotes {
+    font-size: 1.3em;
+    
+}
+
+.humorPics {
+    position: relative;
+    font-family: Impact;
+}
+
+.humorPics figcaption{
+    font-family: 'Impact';
+}
+
+
+.humorPics img{
+    min-width: 500px;
+    min-height: 300px;
+}
+.humorPics figure {
+    text-align: center;
+}
+
+/*--------------------*/
+
+.topButton img{
+    max-height: 80px;
+    max-width: 80px;
+    
+}
+
+.topButton {
+    padding-left: 90%;
+}
+
+h1#noFacebook a{
+    color: #595959;
+}
+
+h1#noFacebook a:hover{
+    color: orange;
+}
+
+h1#noFacebook{
+    margin-bottom: 40%;
+}
